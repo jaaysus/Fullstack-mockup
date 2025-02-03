@@ -1,0 +1,55 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5e4b8; /* Yellowish cream background */
+  color: #333; /* Dark text color for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+h2 {
+  color: #8b0000; /* Dark red color for the header */
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Container styling */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling for buttons */
+.button {
+  background-color: #8b0000; /* Dark red */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #700000; /* Slightly darker red */
+}
+
+/* Additional text elements */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Links styling */
+a {
+  color: #8b0000; /* Dark red for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+.table-container {
+    background-color: #f5e4b8; /* Yellowish cream */
+    padding: 20px;
+  }
+  
+  .entry-table {
+    background-color: #8b0000; /* Dark red */
+    color: white;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .entry-table th,
+  .entry-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .entry-table th {
+    background-color: #700000; /* Slightly darker red for the header */
+  }
+  
+  .entry-row {
+    background-color: #a52a2a; /* Lighter red for the rows */
+  }
+  
+  .entry-row:nth-child(even) {
+    background-color: #7a0000; /* Slightly darker row for alternate rows */
+  }
+  
