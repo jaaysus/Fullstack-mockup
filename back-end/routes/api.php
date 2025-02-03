@@ -21,3 +21,4 @@ use App\Http\Controllers\EntryController;
 
 Route::get('/entries', [EntryController::class, 'index']);
 Route::post('/entries', [EntryController::class, 'store']);
+//http://127.0.0.1:8000/api/entries  gets you all the entries from the database, interesting

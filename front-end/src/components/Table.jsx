@@ -8,6 +8,7 @@ const Table = () => {
   const { entries, status, error } = useSelector((state) => state.form);
 
   useEffect(() => {
+    console.log(entries)//analyzing purposes
     if (status === "idle") {
       dispatch(fetchEntries());
     }
